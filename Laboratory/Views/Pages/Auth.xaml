@@ -1,0 +1,28 @@
+﻿<Page x:Class="Laboratory.Views.Pages.Auth"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Laboratory.Views.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Auth">
+
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Label Content="Авторизация" HorizontalAlignment="Center"/>
+        <Label Content="Логин"/>
+        <StackPanel Orientation="Horizontal" Width="308">
+            <TextBox  x:Name="Login" Width="168" Background="#FF498C51" RenderTransformOrigin="0.594,0.491"/>
+        </StackPanel>
+        <Label Content="Пароль"/>
+        <StackPanel Orientation="Horizontal">
+            <PasswordBox x:Name="Password" Width="168" Background="#FF498C51"/>
+            <TextBox Visibility="Collapsed" x:Name="vision" Width="168"></TextBox>
+            <TextBlock Background="#FF498C51" Text="Показать" MouseUp="Button_MouseUp" MouseDown="Button_MouseDown" >
+                
+            </TextBlock>
+        </StackPanel>
+        <Button Width="129" Height="25" Click="Btn" Background="#FF498C51" Content="Войти" RenderTransformOrigin="0.579,0.556"/>
+        <Image Height="250" Source="/logo.png" Stretch="Fill" Width="300"/>
+    </StackPanel>
+</Page>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3c51d38ffa244c48a447cdde8d37bbb8" Name="Diagram1">
+        <EntityTypeShape EntityType="LaboratoryModel.Accountant" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaboratoryModel.AccountData" Width="1.5" PointX="0.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaboratoryModel.Administrator" Width="1.5" PointX="3" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaboratoryModel.Analizator" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaboratoryModel.Clients" Width="1.5" PointX="6" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaboratoryModel.Country" Width="1.5" PointX="1.5" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaboratoryModel.Insurance" Width="1.5" PointX="3.75" PointY="21.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaboratoryModel.InsuranceCompanies" Width="1.5" PointX="1.5" PointY="20" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaboratoryModel.InsuranceTypes" Width="1.5" PointX="1.5" PointY="27.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaboratoryModel.Laborant" Width="1.5" PointX="3" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaboratoryModel.LaborantResponsibility" Width="1.5" PointX="5.25" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaboratoryModel.Orders" Width="1.5" PointX="3" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaboratoryModel.OrdersServices" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaboratoryModel.Services" Width="1.5" PointX="3" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaboratoryModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="LaboratoryModel.FK__Accountan__Accou__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="LaboratoryModel.FK__OrdersSer__Accou__693CA210" ManuallyRouted="false" />
+        <AssociationConnector Association="LaboratoryModel.FK__Administr__Accou__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="LaboratoryModel.FK__Clients__Account__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="LaboratoryModel.FK__Laborant__Accoun__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="LaboratoryModel.FK__OrdersSer__Anali__6A30C649" ManuallyRouted="false" />
+        <AssociationConnector Association="LaboratoryModel.FK__Clients__Insuran__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="LaboratoryModel.FK__Insurance__Count__286302EC" ManuallyRouted="false" />
+        <AssociationConnector Association="LaboratoryModel.FK__Insurance__Compa__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="LaboratoryModel.FK__Insurance__TypeI__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="LaboratoryModel.FK__LaborantR__Labor__6477ECF3" ManuallyRouted="false" />
+        <AssociationConnector Association="LaboratoryModel.FK__LaborantR__Servi__656C112C" ManuallyRouted="false" />
+        <AssociationConnector Association="LaboratoryModel.FK__OrdersSer__Order__68487DD7" ManuallyRouted="false" />
+        <AssociationConnector Association="LaboratoryModel.FK__OrdersSer__Servi__6B24EA82" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
